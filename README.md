@@ -1,4 +1,5 @@
 Ontologia OWL para Classificação de Crises Epilépticas 🧠 
+
 Este repositório contém uma ontologia OWL desenvolvida no Protégé para a classificação de crises epilépticas, baseada na taxonomia da International League Against Epilepsy (ILAE).
 
 📖 Base de Referência
@@ -23,10 +24,8 @@ Baixe e instale o Protégé
 
 Clone este repositório:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/jesayassilva/Ontologia-Epilepsia.git
+
 Abra o arquivo .owl no Protégé e explore a ontologia
 
 📌 Estrutura da Ontologia
