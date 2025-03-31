@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="http://www.semanticwe.org/jesaias/ontologies/2018/4/untitled-ontology-4" uri="Pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-44" uri="Epilepsia2%20-%20Copia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="crise%20desconhecida.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="crise%20focal.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="crise%20generalizada.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="Crises%20de%20Epilepsia%20-%20Copia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="Crises%20de%20Epilepsia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="ontologia%20epilepsia%20versao%20final.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="ontologia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="ontologia14.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1530305526420" name="duplicate:http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-78" uri="testes.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-44"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-44">
+    <Prefix name="" IRI="http://www.semanticweb.org/jesaias/ontologies/2018/5/untitled-ontology-44#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ontologia para classificação de crises Epilépticas (Não Classifica se o indivíduo tem epilepsia, já é constatado que o pacinte tem epilepsia. A classificação é da crise epiléptica que occoreu. Nova Classificação Operacional dos Tipos de Crises Epilépticas da ILAE 2017, Esquema Simplificado )</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcontecimentoMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitiva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FocalDisperceptiva"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#E_PercepcaoDaCrise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generalizado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ausencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerdaDeTonusFocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbalosFocaisBreves_e_Irregulares"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PerdaMovimentoParteCorpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convulsao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesconhecidoNaoMotora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FocalInicioMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FocalInicioNaoMotor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#convulsao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Generalizada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FocalMotora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FocalPerceptivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralizadaMotora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesconhecidoMotora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sintomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epilepsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralizadaNaoMotora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeLembra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContracoesMuscularesAlternadasRelaxamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaoSeLembraDaCrise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FocalNaoMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emocionais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desconhecido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspasmosEpilepticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerdaMovimentoLocalEspecíficoDoCorpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComprometimentoDeLinguagem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#E_AcontecimentoDuranteCrise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParadaComportamental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeLembraDaCrise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PerdaConcienciaContracoesSustentadasMusculos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#FocalDisperceptiva"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Focal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+                <Class IRI="#NaoSeLembraDaCrise"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+                <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+                <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FocalInicioMotor"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+                        <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+                    </ObjectIntersectionOf>
+                </ObjectAllValuesFrom>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+                <ObjectUnionOf>
+                    <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+                    <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+                    <Class IRI="#PerdaMovimentoLocalEspecíficoDoCorpo"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FocalInicioNaoMotor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+            <Class IRI="#Cognitiva"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FocalPerceptivo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Focal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+                <Class IRI="#SeLembraDaCrise"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GeneralizadaMotora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+            <Class IRI="#Convulsao"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GeneralizadaNaoMotora"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+            <Class IRI="#Ausencia"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AbalosFocaisBreves_e_Irregulares"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+        <Class IRI="#Sintomas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcontecimentoMotor"/>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ausencia"/>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitiva"/>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convulsao"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desconhecido"/>
+        <Class IRI="#Epilepsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesconhecidoMotora"/>
+        <Class IRI="#Desconhecido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesconhecidoNaoMotora"/>
+        <Class IRI="#Desconhecido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emocionais"/>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspasmosEpilepticos"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focal"/>
+        <Class IRI="#Epilepsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <Class IRI="#Focal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FocalInicioMotor"/>
+        <Class IRI="#Focal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FocalInicioNaoMotor"/>
+        <Class IRI="#Focal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralizadaMotora"/>
+        <Class IRI="#Generalizado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralizadaNaoMotora"/>
+        <Class IRI="#Generalizado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generalizado"/>
+        <Class IRI="#Epilepsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaoSeLembraDaCrise"/>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParadaComportamental"/>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerdaDeTonusFocal"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerdaMovimentoLocalEspecíficoDoCorpo"/>
+        <Class IRI="#AcontecimentoMotor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeLembraDaCrise"/>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+        <Class IRI="#Sintomas"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+        <Class IRI="#PerdaMovimentoLocalEspecíficoDoCorpo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AcontecimentoMotor"/>
+        <Class IRI="#AcontecimentoNaoMotor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Focal"/>
+        <Class IRI="#Generalizado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FocalDisperceptiva"/>
+        <Class IRI="#FocalPerceptivo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <Class IRI="#FocalInicioMotor"/>
+        <Class IRI="#FocalInicioNaoMotor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeneralizadaMotora"/>
+        <Class IRI="#GeneralizadaNaoMotora"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NaoSeLembraDaCrise"/>
+        <Class IRI="#SeLembraDaCrise"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Cognitiva"/>
+        <NamedIndividual IRI="#ComprometimentoDeLinguagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContracaoMuscularCrescenteSustentada"/>
+        <NamedIndividual IRI="#ContracoesMuscularesAlternadasRelaxamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbalosSimetricosOuAssimétricosRepetemRegularmente"/>
+        <NamedIndividual IRI="#PerdaConcienciaContracoesSustentadasMusculos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerdaMovimentoLocalEspecíficoDoCorpo"/>
+        <NamedIndividual IRI="#PerdaMovimentoParteCorpo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeLembraDaCrise"/>
+        <NamedIndividual IRI="#SeLembra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Convulsao"/>
+        <NamedIndividual IRI="#convulsao"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <NamedIndividual IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <NamedIndividual IRI="#ContracoesMuscularesAlternadasRelaxamento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <NamedIndividual IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <NamedIndividual IRI="#PerdaConcienciaContracoesSustentadasMusculos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+        <NamedIndividual IRI="#FocalEvoluindoParaTonico-clonicoBilateral"/>
+        <NamedIndividual IRI="#SeLembra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <NamedIndividual IRI="#FocalMotora"/>
+        <NamedIndividual IRI="#PerdaMovimentoParteCorpo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <NamedIndividual IRI="#FocalNaoMotor"/>
+        <NamedIndividual IRI="#ComprometimentoDeLinguagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <NamedIndividual IRI="#Generalizada"/>
+        <NamedIndividual IRI="#convulsao"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#E_AcontecimentoDuranteCrise"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#E_PercepcaoDaCrise"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#E_AcontecimentoDuranteCrise"/>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#E_PercepcaoDaCrise"/>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#E_AcontecimentoDuranteCrise"/>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#E_PercepcaoDaCrise"/>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <Class IRI="#Epilepsia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+        <Class IRI="#Focal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#E_AcontecimentoDuranteCrise"/>
+        <Class IRI="#Epilepsia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#E_PercepcaoDaCrise"/>
+        <Class IRI="#Focal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TemAcontecimentoDuranteCrise"/>
+        <Class IRI="#AcontecimentoDuranteCrise"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TemPercepcaoDaCrise"/>
+        <Class IRI="#SintomasPerceptivosDuranteCrise"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbalosFocaisBreves_e_Irregulares</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Contração(ões) súbita, breve (&lt;100ms), involuntária, única ou múltipla de músculos ou grupos de músculos de topografia variável (axial, de membros proximais ou distais). Mioclonia é menos regularmente repetitiva e menos sustentada que o clonus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbalosFocaisBreves_e_Irregulares</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mioclônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbalosSimetricosOuAssimétricosRepetemRegularmente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Abalos, simétricos ou assimétricos, que se repetem regularmente e envolvem os mesmos grupos musculares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbalosSimetricosOuAssimétricosRepetemRegularmente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ausencia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Antigamente denominadas de &quot;pequeno mal epiléptico&quot;, são episódios em que a pessoa experimenta uma súbita alteração da consciência por 10 a 30 segundos, durante os quais fica quieta, com olhar vago, parecendo estar olhando para o infinito.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cognitiva</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Comprometimento da linguagem ou outros domínios cognitivos ou em características positivas tais como déjà vu, alucinações, ilusões ou distorções da percepção.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ContracaoMuscularCrescenteSustentada</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ContracaoMuscularCrescenteSustentada</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma contração muscular crescente e sustentada com duração de segundos a minutos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emocionais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Envolve ansiedade, medo, alegria, outras emoções, ou aparecimento de afeto sem emoções subjetivas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspasmosEpilepticos</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Súbita flexão, extensão, ou uma mistura de ambas que afeta predominantemente os músculos proximais e do tronco, mais sustentada que uma mioclonia mas não tão mantida como nas crises tônicas. Formas limitadas podem ocorrer: careteamento, queda da cabeça ou movimentos oculares sutis. Espasmos epilépticos frequentemente ocorrem de forma repetida, em grupos. Espasmos infantis são a forma mais conhecida, mas espasmos podem ocorrer em qualquer idade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspasmosEpilepticos</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">podem ter um início tanto focal quanto generalizado. A falta de conhecimento sobre o início da crise tornava-a inclassificável. com dados EEG sera preciso a classificação, mas com obsevação é indicado desconhecido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Focal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Originada em redes neuronais limitadas a um hemisfério. Podem ser bem localizadas ou mais difusamente distribuídas. As crises focais podem se originar em estruturas subcorticais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FocalEvoluindoParaTonico-clonicoBilateral</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma sequência constituída por fase tônica seguida de fase clônica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Generalizado</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Originada em algum ponto e rapidamente envolvendo redes neuronais distribuídas bilateralmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaoSeLembraDaCrise</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Não tem conhecimento de si mesmo e do ambiente durante a crise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParadaComportamental</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma crise focal com parada comportamental deve incluir crises que tenham a parada comportamental como a característica predominante durante toda a crise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PerdaDeTonusFocal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PerdaDeTonusFocal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Redução ou perda súbita do tônus muscular sem evento tônico ou mioclônico precedendo. Duração de aproximadamente 1 a 2 segundos, envolvendo a musculatura da cabeça, tronco, queixo ou membros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TemAcontecimentoDuranteCrise</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O que aconteceu durante a crise?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TemPercepcaoDaCrise</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O Paciente tem conhecimento de si mesmo e do ambiente durante a crise?</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
