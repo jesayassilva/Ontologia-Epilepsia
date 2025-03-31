@@ -7,6 +7,7 @@ A ontologia segue as diretrizes do artigo:
 
 Instruction Manual for the ILAE 2017 Operational Classification of Seizure Types
 Epilepsia, v. 58, n. 4, p. 531-542.
+https://www.ilae.org/files/dmfile/Operational-Classification---Instruction-manual-Fisher_et_al-2017-Epilepsia-1.pdf
 
 🏗️ Tecnologias Utilizadas
 OWL (Web Ontology Language)
